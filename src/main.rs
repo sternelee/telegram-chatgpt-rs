@@ -2,7 +2,7 @@ use teloxide::prelude::*;
 use chatgpt::prelude::*;
 
 #[tokio::main]
-async fn main() -> chatgpt::Result<()> {
+async fn main() {
     pretty_env_logger::init();
     log::info!("Starting throw dice bot...");
 
